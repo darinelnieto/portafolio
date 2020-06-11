@@ -1,0 +1,302 @@
+/*font-family: 'PT Sans', sans-serif;*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background: linear-gradient(45deg, #212521 50%, white 50%);
+  padding-bottom: 2em;
+  padding-top: 2em;
+  box-shadow: 0 0 5px 0 #999;
+  width: 100%;
+}
+
+.imgPer {
+  border-radius: 50%;
+  box-shadow: 2px 0 5px 0 #999;
+  animation-duration: 3.4s;
+  animation-name: rotate;
+}
+
+.darinel {
+  color: white;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  border-bottom: 1px solid white;
+}
+
+.nieto {
+  color: #212521;
+  font-family: "PT Sans", sans-serif;
+  font-style: bold 700;
+  border-bottom: 1px solid black;
+}
+
+.nombre, .apellido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .darinel, .nieto {
+    font-size: 25px;
+  }
+
+  .imgPer {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .darinel, .nieto {
+    font-size: 14px;
+  }
+
+  .imgPer {
+    width: 90px;
+    height: 90px;
+  }
+}
+@keyframes rotate {
+  from {
+    margin-bottom: 100%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+}
+nav {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.menu {
+  font-family: "PT Sans", sans-serif;
+  font-style: bold 700 italic;
+  text-transform: uppercase;
+  padding: 0 8px;
+  color: #999;
+  font-size: 14px;
+}
+.menu:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.linav {
+  padding: 4px 0;
+  margin: 0 0.5px;
+}
+.linav:hover {
+  transform: scale(1.1);
+  border-bottom: 1px solid #999;
+}
+
+@media (max-width: 799px) {
+  .menu {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+
+  .linav {
+    padding: 3px 0;
+    margin: 0 0.5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 800px) {
+  .menu {
+    padding: 0 8px;
+    font-size: 14px;
+  }
+  .menu:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
+  .linav {
+    padding: 4px 0;
+    margin: 0 0.5px;
+  }
+  .linav:hover {
+    transform: scale(1.1);
+  }
+
+  .nav {
+    margin-left: 7%;
+  }
+}
+@media (min-width: 992px) {
+  .nav {
+    margin-left: 21%;
+  }
+}
+main {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.aCerc {
+  text-transform: capitalize;
+  font-family: "Tangerine", cursive;
+  font-style: bold;
+  color: #777;
+  width: 190px;
+}
+
+hr {
+  color: black;
+  font-size: 5px;
+  margin-top: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 1px solid rgba(153, 153, 153, 0.1);
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  color: white;
+  font-size: 19px;
+}
+
+.yo {
+  background: #212521;
+}
+
+.aCerca {
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.logopluma {
+  width: 100px;
+  height: 220px;
+  position: absolute;
+  transform: rotate(10deg) translateY(-160px);
+}
+
+
+.contenido {
+  border: 1px solid rgba(153, 153, 153, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tarjetas {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  color: #999;
+  font-size: 17px;
+}
+
+h5 {
+  font-family: "PT Sans", sans-serif;
+  font-style: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.imgT {
+  width: 350px;
+  height: 200px;
+}
+
+section {
+  margin: 1em 0;
+}
+
+footer {
+  background: #212521;
+  width: 100%;
+}
+
+.footer {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+}
+
+.titulo {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-style: bold;
+  padding-top: 5px;
+}
+
+/*.ftr {
+  padding: 1em 0;
+}*/
+
+body {
+  color: white;
+}
+
+#svg {
+  font-size: 40px;
+  margin-top: 1em;
+  margin-left: 6px;
+}
+
+strong {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.tarjetas{
+  text-align: left;
+}
+
+.wordpress{
+  color: #999;
+  font-family: "PT Sans", sans-serif;
+  font-weight: italic;
+}
+@media(max-width: 1199px){
+    .logopluma{
+      width: 100px;
+      height: 120px;
+      transform: translateY(-66px);
+    }
+    .wordpress{
+      font-size: 12px;
+    }
+    .imgT{
+      width: 250px;
+    }
+    .tarjetas{
+      font-size: 12px;
+    }
+    .footer{
+      font-size: 12px;
+    }
+}

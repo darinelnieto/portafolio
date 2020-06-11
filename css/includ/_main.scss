@@ -1,0 +1,82 @@
+main{
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.aCerc{
+	text-transform: capitalize;
+	font-family: 'Tangerine', cursive;
+	font-style: bold;
+	color: #777;
+	width: 190px;
+}
+hr{
+	color:black;
+	font-size: 5px;
+	margin-top: 0;
+}
+
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	border: 1px solid rgba(#999, .1); 
+}
+
+p{
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	color: white;
+	font-size: 19px;
+}
+.yo{
+	background: #212521;
+}
+
+.aCerca{
+	width: 100%;
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
+
+.logopluma{
+	width: 100px;
+	height: 220px;
+	position: absolute;
+	transform: rotate(10deg) translateY(-160px);
+}
+
+.contenido{
+	border: 1px solid rgba(#999, .1); 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tarjetas{
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	color: #999;
+	font-size: 17px;
+}
+
+h5{
+	font-family: 'PT Sans', sans-serif;
+	font-style: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.imgT{
+	width: 350px;
+	height: 200px
+}
+
+section{
+	margin: 1em 0;
+}
+
+

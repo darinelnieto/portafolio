@@ -1,0 +1,74 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	width: 100%;
+}
+
+header{
+		background: linear-gradient(45deg,#212521 50%, white 50%);
+		padding-bottom: 2em;
+		padding-top: 2em;
+		box-shadow: 0 0 5px 0 #999;
+		width: 100%;
+}
+
+.imgPer{
+	border-radius: 50%;
+	box-shadow: 2px 0 5px 0 #999;
+	 animation-duration: 3.4s;
+  animation-name: rotate;
+
+}
+.darinel{
+	color:white;
+	align-items: center;
+	font-family: 'PT Sans', sans-serif;
+	border-bottom: 1px solid white;
+}
+.nieto{
+	color: #212521;
+	font-family: 'PT Sans', sans-serif;
+	font-style: bold 700;
+	border-bottom: 1px solid black;
+}
+
+.nombre, .apellido{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media(max-width: 991px){
+	.darinel, .nieto{
+		font-size: 25px;
+	}
+
+	.imgPer{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media(max-width: 480px){
+	.darinel, .nieto{
+		font-size: 14px;
+	}
+	.imgPer{
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@keyframes rotate {
+  from {
+    margin-bottom: 100%;
+    
+    
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+
