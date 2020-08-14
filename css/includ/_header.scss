@@ -1,0 +1,27 @@
+html{
+	scroll-behavior: smooth;
+}
+#img{
+	background: linear-gradient(45deg, #222 50%, #fff 50%);
+}
+.nieto{
+	color: #222;
+	border-bottom: 2px solid #222;
+}
+.darinel{
+	border-bottom: 2px solid #fff;
+}
+@media(max-width: 799px){
+	.darinel, .nieto{
+		font-size: 16px;
+	}
+	
+}
+.centrar{
+	align-items: center;
+}
+.imgPer{
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+}
